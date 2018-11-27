@@ -69,7 +69,7 @@ end
 proj.setting(:includedir, File.join(proj.prefix, "include"))
 proj.setting(:datadir, File.join(proj.prefix, "share"))
 proj.setting(:mandir, File.join(proj.datadir, "man"))
-proj.setting(:artifactory_url, "https://artifactory.delivery.puppetlabs.net/artifactory")
+proj.setting(:artifactory_url, "http://straylen.web.cern.ch/straylen/pl-tools5")
 proj.setting(:buildsources_url, "#{proj.artifactory_url}/generic/buildsources")
 
 # proj.identifier
